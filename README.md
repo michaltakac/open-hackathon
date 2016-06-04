@@ -14,6 +14,15 @@ Open Hackathon Košice
 
 Node (Use NVM - Node Version Manager!!! Install instructions [here](https://github.com/creationix/nvm))
 
+Node-sass
+```bash
+npm install -g node-sass
+```
+If it hangs for 2-3 minutes, just kill it with Ctrl+C (it will be installed).
+Now, if you try to use `node-sass` in your Terminal and some error pops out, you'll need to rebuild node-sass package.
+Go to the directory where your globally installed node_modules are, and from there try this: `npm rebuild node-sass`. It
+will print lot of things and after a while it will finish.
+
 ### Clone this repository
 
 *OSX & Linux*
