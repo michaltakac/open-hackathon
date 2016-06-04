@@ -19,13 +19,13 @@ Node (Use NVM - Node Version Manager!!! Install instructions [here](https://gith
 *OSX & Linux*
 
 ```bash
-git clone https://github.com/marospekarik/open-hackathon.git && cd open-hackathon && rm -rf .git
+git clone https://github.com/michaltakac/open-hackathon.git && cd open-hackathon && rm -rf .git
 ```
 
 *Windows*
 
 ```bash
-git clone https://github.com/marospekarik/open-hackathon.git && cd open-hackathon && rd /s /q .git
+git clone https://github.com/michaltakac/open-hackathon.git && cd open-hackathon && rd /s /q .git
 ```
 
 ### Install
