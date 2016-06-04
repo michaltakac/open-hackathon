@@ -74,6 +74,8 @@
     "gulp-postcss": "^6.1.x",
     "gulp-preprocess": "^2.0.x",
     "gulp-rename": "^1.2.x",
+    "gulp-sass": "^2.3.1",
+    "gulp-sass-glob": "^1.0.6",
     "gulp-sitemap": "^4.0.x",
     "gulp-sourcemaps": "^1.6.x",
     "gulp-uglify": "^1.5.x",
@@ -95,6 +97,7 @@
     "watchify": "^3.7.x"
   },
   "scripts": {
+    "install": "npm install && npm rebuild node-sass",
     "start": "./node_modules/gulp/bin/gulp.js",
     "dev": "./node_modules/gulp/bin/gulp.js --env dev",
     "build": "./node_modules/gulp/bin/gulp.js --env prod",
