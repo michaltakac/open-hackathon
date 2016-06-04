@@ -7,13 +7,13 @@
     "Maros Pekarik <https://twitter.com/maros_pekarik>",
     "Michal Takac <https://twitter.com/michaltakac>"
   ],
-  "homepage": "https://github.com/marospekarik/OpenHackathon",
+  "homepage": "https://github.com/michaltakac/open-hackathon",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marospekarik/OpenHackathon.git"
+    "url": "git+https://github.com/michaltakac/open-hackathon.git"
   },
   "issues": {
-    "url": "https://github.com/marospekarik/OpenHackathon/issues"
+    "url": "https://github.com/michaltakac/open-hackathon/issues"
   },
   "keywords": [
     "hackathon",
@@ -150,7 +150,7 @@
     "styles": "scss"
   },
   "bugs": {
-    "url": "https://github.com/marospekarik/OpenHackathon/issues"
+    "url": "https://github.com/michaltakac/open-hackathon/issues"
   },
   "main": "gulpfile.babel.js"
 }
