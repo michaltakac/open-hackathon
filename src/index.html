@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>Open Hackathon Košice</title>
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,700,400' rel='stylesheet' type='text/css'>
+	<!-- @if ENV='dev' -->
+	<link rel="stylesheet" href="styles/main.css">
+	<!-- @endif -->
+	<!-- @if ENV='prod' -->
+	<link rel="stylesheet" href="styles/main.min.css">
+	<!-- @endif -->
+
+	<!-- @include partials/meta.html -->
+
+	<!-- @include partials/favicons.html -->
+</head>
+<body>
+	<!-- @include partials/browserhappy.html -->
+
+	<!-- @include partials/navigation.html -->
+
+	<!-- @include partials/section-1.html -->
+
+	<!-- @include partials/section-2.html -->
+
+	<!-- @include partials/section-3.html -->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js"></script>
+	<!-- @if ENV='dev' -->
+	<script src="scripts/vendor.js"></script>
+	<script src="scripts/main.js"></script>
+	<!-- @endif -->
+	<!-- @if ENV='prod' -->
+	<script src="scripts/vendor.min.js"></script>
+	<script src="scripts/main.min.js"></script>
+	<!-- @endif -->
+
+	<!-- //@include partials/analytics.html -->
+</body>
+</html>

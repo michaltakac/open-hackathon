@@ -1,0 +1,42 @@
+@import 'node_modules/sass-font-face/_font-face';
+// $font-regular: 'Open Sans Regular';
+
+// @include font-face($font-regular, 'fonts/', 'OpenSans-Regular-webfont', 'open_sansregular');
+
+$font-awesome: 'Font Awesome';
+@include font-face($font-awesome, 'fonts/', 'fontawesome', 'fontawesome');
+
+$font-ecoico: 'Ecoico';
+@include font-face($font-ecoico, 'fonts/', 'ecoico', 'ecoico');
+
+$font-feather: 'Feather';
+@include font-face($font-feather, 'fonts/', 'feather', 'feather');
+
+$font-bpicons: 'BPIcons';
+@include font-face($font-bpicons, 'fonts/', 'bpicons', 'bpicons');
+
+.icon {
+  font-family: 'Feather';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon--zoom:before {
+  content: "\e036";
+}
+.icon--circle-cross:before {
+  content: "\e602";
+}
+.icon--arrow-right:before {
+  content: "\e600";
+}
+.icon--arrow-left:before {
+  content: "\e601";
+}
