@@ -38,7 +38,7 @@ export function watch(done) {
   const watchers = [
     // Watch html files
     gulp.watch(`${config.src}/*.html`, markup),
-    gulp.watch(`${config.src}/inc/**/*`, markup),
+    gulp.watch(`${config.src}/partials/**/*`, markup),
 
     // Watch styles files
     gulp.watch(`${config.src}/styles/**/*.${config.extensions.styles}`, processStyles),
