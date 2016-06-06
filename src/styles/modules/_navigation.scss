@@ -400,16 +400,16 @@ Content Sections - basic style
   display: table;
   width: 100%;
   height: 100vh;
-  background: #3a2c41;
+  background: #fff;
 }
 .cd-section:nth-of-type(even) {
-  background-color: #70557e;
+  background-color: #fff;
 }
 .cd-section > div {
   /* vertically align <div> inside <section> */
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
+  // display: table-cell;
+  // vertical-align: middle;
+  // text-align: center;
 }
 .cd-section h1, .cd-section h2 {
   width: 90%;
@@ -417,20 +417,35 @@ Content Sections - basic style
   text-transform: uppercase;
   font-size: 2.4rem;
   line-height: 1.4;
+  font-weight: 500;
 }
 .cd-section h1 b, .cd-section h2 b {
   color: #584c5e;
 }
-.cd-section p {
+
+.main p {
   margin: 1em auto 0;
   line-height: 1.6;
   width: 90%;
   max-width: 680px;
-  color: rgba(234, 242, 227, 0.6);
+  // color: rgba(234, 242, 227, 0.6);
 }
+.description p {
+  margin: 1em auto 0;
+  line-height: 1.2;
+  width: 90%;
+  max-width: 680px;
+  // color: rgba(234, 242, 227, 0.6);
+}
+.description strong {
+  font-weight: 800;
+  color: #46dc96;
+}
+
+
 @media only screen and (min-width: 800px) {
   .cd-section h1, .cd-section h2 {
-    font-size: 3rem;
+    font-size: 1.8rem;
   }
   .cd-section p {
     font-size: 2rem;

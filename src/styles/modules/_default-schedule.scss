@@ -34,12 +34,17 @@ a:hover {
 
 .main,
 .schedule > header {
-    width: 95%;
-    max-width: 69em;
-    margin: 0 auto;
+    // width: 95%;
+    // max-width: 69em;
+    // margin: 0 auto;
     padding: 0 1.875em 3.125em;
 }
-
+.main {
+   
+}
+.schedule li {
+    position: relative;
+}
 .schedule > header {
     padding: 2.875em 1.875em 1.875em;
 }
