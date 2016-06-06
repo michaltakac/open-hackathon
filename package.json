@@ -38,6 +38,7 @@
   "napa": {},
   "dependencies": {
     "bootstrap-sass": "^3.3.6",
+    "hover.css": "^2.0.2",
     "jquery": "^2.2.4",
     "normalize.css": "git://github.com/necolas/normalize.css.git#3.0.3",
     "sass-easing": "^1.0.3",

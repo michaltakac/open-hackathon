@@ -23,16 +23,17 @@
     top: 0;
     bottom: 0;
     width: 10px;
-    background: #ccc;
+    background: #ff9900;
     left: 20%;
     margin-left: -10px;
+    border: 1px solid #ccc;
 }
 
 /* The date/time */
 .cbp_tmtimeline > li .cbp_tmtime {
     display: block;
-    width: 25%;
-    padding-right: 100px;
+    width: 100%;
+    padding-right: 574px;
     position: absolute;
 }
 
@@ -48,33 +49,35 @@
 
 .cbp_tmtimeline > li .cbp_tmtime span:last-child {
     font-size: 1em;
-    color: #ccc;
+    color: #ff9900;
 }
 
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmtime span:last-child {
-    color: #46dc96;
+    color: #ff9900;
 }
 
 /* Right content */
 .cbp_tmtimeline > li .cbp_tmlabel {
-    margin: 0 0 15px 25%;
-    background: #46dc96;
+    margin: 0 0 11px 27%;
+    // background: #46dc96;
     color: #fff;
-    padding: 1em;
-    font-size: 1.2em;
+    padding: 0.2em;
+    font-size: 0.2em;
     font-weight: 300;
-    line-height: 1.4;
+    line-height: 0.4;
     position: relative;
     border-radius: 5px;
+    border: 1px solid #ff9900;
 }
 
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel {
-    background: #ccc;
+    // background: #ccc;
 }
 
 .cbp_tmtimeline > li .cbp_tmlabel h2 {
+    color: #ff9900;
     margin-top: 0px;
-    padding: 0 0 10px 0;
+    padding: 12px 0 1px 0;
     border-bottom: 1px solid rgba(255,255,255,0.4);
 }
 
@@ -87,13 +90,13 @@
     width: 0;
     position: absolute;
     pointer-events: none;
-    border-right-color: #46dc96;
+    border-right-color: #ff9900;
     border-width: 10px;
     top: 10px;
 }
 
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
-    border-right-color: #ccc;
+    // border-right-color: #ccc;
 }
 
 /* The icons */
@@ -111,9 +114,9 @@
     -webkit-font-smoothing: antialiased;
     position: absolute;
     color: #fff;
-    background: #46dc96;
+    background: #ff9900;
     border-radius: 50%;
-    box-shadow: 0 0 0 8px #ccc;
+    box-shadow: 0 0 0 8px #ff9900;
     text-align: center;
     left: 20%;
     top: 0;
@@ -139,6 +142,7 @@
 // My CSS
 
 .schedule {
+    margin-top: 146px;
     display: flex;
     flex-direction: row;
 
@@ -172,6 +176,7 @@
 
     .cbp_tmtimeline > li .cbp_tmtime span:last-child {
         font-size: 1.5em;
+        color: #ff9900;
     }
 }
 
@@ -207,7 +212,7 @@
 
     .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
         border-right-color: transparent;
-        border-bottom-color: #46dc96;
+        border-bottom-color: #ff9900;
     }
 
     .cbp_tmtimeline > li .cbp_tmicon {
