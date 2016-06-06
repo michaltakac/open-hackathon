@@ -1,14 +1,14 @@
 /* General Blueprint Style */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 @font-face {
-    font-family: 'fontawesome';
-    src:url('../fonts/fontawesome.eot');
-    src:url('../fonts/fontawesome.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/fontawesome.svg#fontawesome') format('svg'),
-        url('../fonts/fontawesome.woff') format('woff'),
-        url('../fonts/fontawesome.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'FontAwesome';
+  src:url('../styles/fonts/fontawesome.eot');
+  src:url('../styles/fonts/fontawesome.eot?#iefix') format('embedded-opentype'),
+      url('../styles/fonts/fontawesome.svg#fontawesome') format('svg'),
+      url('../styles/fonts/fontawesome.woff') format('woff'),
+      url('../styles/fonts/fontawesome.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
@@ -40,7 +40,7 @@ a:hover {
     padding: 0 1.875em 3.125em;
 }
 .main {
-   
+
 }
 .schedule li {
     position: relative;
@@ -105,7 +105,7 @@ a:hover {
 
 .icon-drop:before,
 .icon-arrow-left:before {
-    font-family: 'fontawesome';
+    font-family: 'FontAwesome';
     position: absolute;
     top: 0;
     width: 100%;
@@ -126,9 +126,11 @@ a:hover {
 }
 
 .icon-drop:before {
-    content: "\e000";
+  font-family: 'FontAwesome';
+  content: "\e000";
 }
 
 .icon-arrow-left:before {
-    content: "\f060";
+  font-family: 'FontAwesome';
+  content: "\f060";
 }
