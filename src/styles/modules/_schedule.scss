@@ -100,7 +100,7 @@
 .cbp_tmtimeline > li .cbp_tmicon {
     width: 40px;
     height: 40px;
-    font-family: 'ecoico';
+    font-family: 'FontAwesome';
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -121,19 +121,19 @@
 }
 
 .cbp_tmicon-phone:before {
-    content: "\e000";
+    content: "\f135";
 }
 
 .cbp_tmicon-screen:before {
-    content: "\e001";
+    content: "\f105";
 }
 
 .cbp_tmicon-mail:before {
-    content: "\e002";
+    content: "\f95";
 }
 
 .cbp_tmicon-earth:before {
-    content: "\e003";
+    content: "\f135";
 }
 
 // My CSS
