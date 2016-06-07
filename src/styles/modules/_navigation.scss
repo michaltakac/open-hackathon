@@ -424,10 +424,11 @@ Content Sections - basic style
 }
 
 .main p {
-  margin: 1em auto 0;
+  margin: 0.1em auto 0;
   line-height: 1.6;
   width: 90%;
   max-width: 680px;
+  padding: 0 0 19px;
   // color: rgba(234, 242, 227, 0.6);
 }
 .description p {
@@ -436,10 +437,15 @@ Content Sections - basic style
   width: 90%;
   max-width: 680px;
   // color: rgba(234, 242, 227, 0.6);
+  font-weight: 200;
 }
 .description strong {
   font-weight: 800;
-  color: #46dc96;
+  color: #ff9900;
+}
+.description h2 {
+  color: #ff9900;
+  font-weight: 800;
 }
 
 
@@ -448,7 +454,8 @@ Content Sections - basic style
     font-size: 1.8rem;
   }
   .cd-section p {
-    font-size: 2rem;
+    font-size: 1.6rem;
+    color: #111;
   }
 }
 
@@ -464,6 +471,7 @@ Content Sections - basic style
   bottom: 20px;
   width: 44px;
   height: 44px;
+  opacity: 0.3;
   background: url(../images/cd-arrow-bottom.svg) no-repeat center center;
 }
 
