@@ -23,10 +23,9 @@
     top: 0;
     bottom: 0;
     width: 10px;
-    background: #ff9900;
+    background: #FFC978;
     left: 20%;
     margin-left: -10px;
-    border: 1px solid #ccc;
 }
 
 /* The date/time */
@@ -67,7 +66,7 @@
     line-height: 0.4;
     position: relative;
     border-radius: 5px;
-    border: 1px solid #ff9900;
+    border: 1px solid #FFC978;
 }
 
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel {
@@ -116,27 +115,32 @@
     color: #fff;
     background: #ff9900;
     border-radius: 50%;
-    box-shadow: 0 0 0 8px #ff9900;
+    box-shadow: 0 0 0 8px #FFC978;
     text-align: center;
     left: 20%;
     top: 0;
     margin: 0 0 0 -25px;
 }
 
-.cbp_tmicon-phone:before {
+.cbp_tmicon-rocket:before {
     content: "\f135";
 }
-
-.cbp_tmicon-screen:before {
-    content: "\f105";
+.cbp_tmicon-start:before {
+    content: "\f251";
 }
 
-.cbp_tmicon-mail:before {
-    content: "\f95";
+.cbp_tmicon-puzzle:before {
+    content: "\f12e";
 }
 
-.cbp_tmicon-earth:before {
-    content: "\f135";
+.cbp_tmicon-flag:before {
+    content: "\f11e";
+}
+.cbp_tmicon-share:before {
+    content: "\f1e0";
+}
+.cbp_tmicon-beer:before {
+    content: "\f0fc";
 }
 
 // My CSS
