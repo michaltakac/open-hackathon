@@ -404,6 +404,15 @@
     transition-duration: 1.7s;
 }
 
+.eventbrite-register-title {
+  text-align: center;
+}
+
+.eventbrite-widget-wrapper,
+.eventbrite-widget-inner {
+  width: 100%;
+}
+
 /* Media Queries */
 @media screen and (max-width: 50em) {
     .content__item {
