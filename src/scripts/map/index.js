@@ -1,12 +1,13 @@
 jQuery(document).ready(function($){
 	//set your google maps parameters
-	var latitude = 51.5255069,
-		longitude = -0.0836207,
-		map_zoom = 14;
+	//48.726548, 21.250729
+	var latitude = 48.726548,
+		longitude = 21.250729,
+		map_zoom = 16;
 
 	//google map custom marker icon - .png fallback for IE11
 	var is_internetExplorer11= navigator.userAgent.toLowerCase().indexOf('trident') > -1;
-	var marker_url = ( is_internetExplorer11 ) ? 'img/cd-icon-location.png' : 'img/cd-icon-location.svg';
+	var marker_url = ( is_internetExplorer11 ) ? '/images/cd-icon-location.png' : '/images/cd-icon-location.svg';
 		
 	//define the basic color of your map, plus a value for saturation and brightness
 	var	main_color = '#2d313f',

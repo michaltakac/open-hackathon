@@ -8,79 +8,17 @@
 .partneri { 
     margin: 65px 0px 0 71px;
 }
-
-/*GOOGLE MAP*/
-#google-container {
-    position: relative;
-    width: 100%;
-    height: 200px;
-    background-color: $background;
-
-    @include MQ(M) {
-    	height: 300px;
-    }
-
-    @include MQ(L) {
-    	height: 600px;
-    }
+.content__item-inner h2{
+	color: #46dc96;
+	font-size: 3.0rem;
+	padding-bottom: 15px;
 }
+#section2 {
 
-#cd-google-map {
-	position: relative;
-
-	address {
-		position: absolute;
-		width: 100%;
-		bottom: 0;
-		left: 0;
-		padding: 1em 1em;
-		background-color: rgba($color-2, .9);
-		color: $color-3;
-		@include font-size(13px);
-
-		@include MQ(M) {
-			@include font-size(15px);
-			text-align: center;
-		}
-	}
 }
-
-#cd-zoom-in, #cd-zoom-out {
-	height: 32px;
-	width: 32px;
-	cursor: pointer;
-	margin-left: 10px;
-	background-color: rgba($color-2, .9);
-	background-repeat: no-repeat;
-	background-size: 32px 64px;
-	background-image: url('../img/cd-icon-controller.svg');
-
-	.no-touch &:hover {
-		background-color: rgba($color-2, 1);
-	}
-
-	@include MQ(M) {
-		margin-left: 50px;
-	}
-}
-
-#cd-zoom-in {
-	background-position: 50% 0;
-	margin-top: 10px;
-	margin-bottom: 1px;
-
-	@include MQ(M) {
-		margin-top: 50px;
-	}
-}
-
-#cd-zoom-out {
-	background-position: 50% -32px;
-}
-/*END GOOGLE MAP*/
 footer {
 	color: #ccc;
-	border-top: 1px solid #ccc; 
+	border-top: 1px solid #EDEDED; 
 	text-align: center;
 	padding: 25px 0;
 

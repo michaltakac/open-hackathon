@@ -5,9 +5,9 @@
 	 width="48px" height="48px" viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
 <style type="text/css">
 	.st0{opacity:0.19;}
-	.st1{fill:#D36868;}
-	.st2{fill:#AF5151;}
-	.st3{fill:#913D3D;}
+	.st1{fill:rgba(70, 220, 150, 1);}
+	.st2{fill:#ff9900);}
+	.st3{fill:#ff9900;}
 </style>
 <ellipse class="st0" cx="23.5" cy="44.7" rx="10.4" ry="3.3"/>
 <path class="st1" d="M23.5,0c-9.4,0-17,7.5-17,16.8s17,28,17,28s17-18.7,17-28S32.9,0,23.5,0z"/>

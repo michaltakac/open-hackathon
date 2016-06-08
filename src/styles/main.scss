@@ -4,14 +4,8 @@
 @import 'node_modules/normalize.css/normalize';
 @import 'node_modules/sass-easing/_easings';
 @import 'node_modules/bootstrap-sass/assets/stylesheets/_bootstrap';
-@import 'node_modules/bourbon/'; // http://bourbon.io/
-
 
 @import 'fonts/_fonts';
-
-@import 'map/variables'; // colors, fonts etc...
-@import 'map/mixins'; // custom mixins
-@import 'map/layout'; // responsive grid and media queries
 
 @import 'modules/_component';
 @import 'modules/_default-schedule';
@@ -19,6 +13,7 @@
 @import 'modules/_reset';
 @import 'modules/_general';
 @import 'modules/_navigation';
+@import 'modules/_map';
 @import 'modules/_quick-changes';
 
 
