@@ -30,6 +30,7 @@
     "./src/scripts/vendor/jquery-2.1.4.min.js",
     "./src/scripts/vendor/modernizr.js",
     "./node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js",
+    "./src/scripts/vendor/jquery.waypoints.min.js",
     "./src/scripts/vendor/classie.js",
     "./src/scripts/vendor/dynamics.min.js",
     "./src/scripts/vendor/navigation.js",

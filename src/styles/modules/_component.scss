@@ -121,7 +121,7 @@
 /* Zoomer */
 .zoomer {
     position: relative;
-    height: 360px; /* this is needed for IE10 so that vertical flexbox centering works */
+    //height: 360px; /* this is needed for IE10 so that vertical flexbox centering works */
 }
 
 .flex-center {
