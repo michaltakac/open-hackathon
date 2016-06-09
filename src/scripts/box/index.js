@@ -47,7 +47,7 @@ arduino
 oculus
   .attr('transform', 'translate(' + pathStartPoint(oculusPath) + ')');
 
-$('#section2').waypoint(function() {
+$('.description').waypoint(function() {
   TweenMax.to('#top-polygon', 1, {
     y: -50,
     x: -85

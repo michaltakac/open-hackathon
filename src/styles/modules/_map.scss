@@ -1,8 +1,6 @@
+/* --------------------------------
 
-
-/* -------------------------------- 
-
-Main components 
+Main components
 
 -------------------------------- */
 
@@ -54,7 +52,7 @@ Main components
   background-color: rgba(70, 220, 150, 0.9);
   background-repeat: no-repeat;
   background-size: 32px 64px;
-  background-image: url("/images/cd-icon-controller.svg");
+  background-image: url("../images/cd-icon-controller.svg");
 }
 .no-touch #cd-zoom-in:hover, .no-touch #cd-zoom-out:hover {
   background-color: #46dc96;
