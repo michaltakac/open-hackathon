@@ -1,5 +1,15 @@
 ### Change log
 
+0.3.0
+
+* Added box animation with product logos
+* Added Eventbrite registration widget
+* Added map to registration modal
+* Redesign of event timeline
+* Added sponsor logos
+* Minor fixes
+* Font Awesome font fix
+
 0.2.0
 
 * Move to this boilerplate
